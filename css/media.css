@@ -1,0 +1,161 @@
+
+
+   /* sm */
+   @media  screen and (min-width: 640px) {
+         
+
+
+  }
+  
+    /* md */
+    @media  screen and (min-width: 768px) { 
+
+      #carouselExampleAutoplaying {
+
+                 padding-right: 80px;
+                 padding-left: 80px;
+
+                 max-width: 1152px;
+  
+      }
+
+    }
+  
+  /* lg */
+  @media  screen and (min-width: 1024px) {
+     
+       
+    #home { 
+
+
+      margin-top: 80px;
+      margin-bottom: 0;
+
+
+      .main-title  h1 {
+
+        font-size: 60px;
+        line-height: 75px;
+      }
+
+      
+   
+      
+    }
+
+
+    #featured-properties {
+
+
+      .title { 
+
+
+        h2 { 
+
+             font-size: 48px;
+
+        }
+
+      }
+    }
+
+
+
+    #our-services {
+
+      .container{
+
+        .title { 
+
+
+          h2 { 
+  
+               font-size: 48px;
+  
+          }
+  
+        }
+      }
+     
+    }
+
+
+    #client-stories {
+
+      .container{
+
+        .title { 
+
+
+          h2 { 
+  
+               font-size: 48px;
+  
+          }
+  
+          P {
+
+            font-size: 20px;
+            color: oklch(89.4% .057 293.283);
+           line-height: 28px;
+        
+         }
+        }
+
+                
+      
+    
+    }
+     
+    }
+
+
+    #asked-questions {
+
+      .container{
+
+        .title { 
+
+
+          h2 { 
+  
+               font-size: 48px;
+  
+          }
+  
+          P {
+
+            font-size: 20px;
+           
+           line-height: 28px;
+        
+         }
+        }
+
+                
+      
+    
+    }
+     
+    }
+    
+  }  
+  
+  /* xl */
+  @media  screen and (min-width: 1280px) {
+
+   
+  }
+  
+  
+  
+  
+  /* xxl */
+  @media  screen and (min-width: 1536px) {
+
+    .container{
+
+      max-width: 1536px;
+    }
+       
+  }
