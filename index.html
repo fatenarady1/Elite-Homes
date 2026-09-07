@@ -1091,7 +1091,7 @@
 
                         <div class="col-lg-8">
 
-                            <div class="form-content border border-1">
+                            <div class="form-content border border-1 px-md-5">
 
 
 
@@ -1136,29 +1136,62 @@
 
                                             <div class="phone d-flex flex-column">
                                                 <label for="phone" class="fw-bold gray-2">Phone Number<span class="red"> *</span></label>
-                                                <input type="tel" id="phone" class=" bg-gray border form-element" placeholder="+20 123 456 7890">
+                                                <input type="tel" id="phone" class=" bg-gray border form-element" placeholder="+1 (555) 000-0000">
                                             </div>
                                           </div>
 
+                                   
+                                          
 
                                           <div class="">
 
-                                            <div class="Interest d-flex flex-column">
+                                            <div class="interest d-flex flex-column">
                                                 <label for="interest" class="fw-bold gray-2">I'm interested in</label>
-                                                <select id="interest">
-
+                                                <select id="interest" class="bg-gray">
+                                                    Select a service
+                                                    <option>Buying a home</option>
+                                                    <option>Selling a home</option>
+                                                    <option>Renting a property</option>
+                                                    <option>Investment opportunities</option>
+                                                    <option>Commercial real estate</option>
+                                                    <option>Property management</option>
+                                                    <option>Market consultation</option>
                                                 </select>
                                             </div>
                                           </div>
 
 
+                                          <div class="text-area">
+                                            <label for="message" class="fw-bold gray-2">Your Message<span class="red"> *</span></label>
+                                            <textarea  id="message"
+                                            class="form-control bg-gray"
+                                            rows="5"
+                                            placeholder="Tell us about your real estate needs..."></textarea>
+
+                                          </div>
+
+
+
+
+                                         
+
                            
                                     </div>
                                  
-
+                                    <div class="check bg-gray form-element d-flex align-items-center gap-2" >
+                                        <input type="checkbox" id="terms">
+                                        <label for="terms">
+                                            I agree to receive marketing communications and updates from EliteHomes</label>
+                                    </div>
                                        
-  
+                                    <button class="w-100 border-0 fw-bold text-white ">
+                                        Send message
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                    </button>
                                </form>
+
+                               <p class="text-center mt-4">We respect your privacy. Your information will never be shared.</p>
+
                             </div>
                                 
                       </div>
@@ -1174,6 +1207,59 @@
         </section>
         <!-- end contact us -->
 
+
+        <!--start footer -->
+
+        <footer>
+
+            <div class="container">
+
+                <div class="top-footer d-flex align-items-center justify-content-between">
+
+                    <div class="logo">
+                        <span class="fw-bold text-white">EliteHomes</span>
+                    </div>
+
+                    <p>© 2025 EliteHomes. All rights reserved.</p>
+
+                    <div class="social-icons d-flex text-white">
+
+
+                        <div class="facebook icon d-flex align-items-center justify-content-center">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+
+
+                        <div class="twitter icon d-flex align-items-center justify-content-center">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                       
+                        <div class="instgram icon d-flex align-items-center justify-content-center">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                       
+                        <div class="linkedin icon d-flex align-items-center justify-content-center">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                      
+
+                        <div class="youtube icon d-flex align-items-center justify-content-center">
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                       
+
+                    </div>
+                
+                </div>
+    
+    
+                <div class="bottom-footer">
+    
+                </div>
+            </div>
+           
+        </footer>
+        <!--end footer -->
 
         <script src="./js/all.min.js"></script>
         <script src="./js/bootstrap.bundle.min.js"></script>
