@@ -3,7 +3,24 @@
 
     --mauve: #A684FF;
     --primary-color: #9415FB;
-    --black-2: #1D293D;
+    --black-2: #1D293D; 
     --violet-200: oklch(89.4% .057 293.283);
+    --gray:#F9FAFB;
+    --red: #fb2c36;
+    --gray-2: #364153;
 }
 
+.bg-gray {
+
+   background-color: var(--gray);
+}
+
+.red {
+
+    color: var(--red);
+}
+
+.gray-2 {
+
+    color: var(--gray-2);
+}
