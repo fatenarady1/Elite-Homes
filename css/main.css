@@ -1096,8 +1096,16 @@ nav {
     
     color: oklch(59.2% .249 .584);
     width: 18px;
-    height: 13.5px;
+    height: 18px;
   }
+  
+  .contacts .clocks  .fa-clock {
+    
+    color: #4F39F6;
+    width: 18px;
+    height: 18px;
+  }
+
 
 
 
@@ -1121,5 +1129,51 @@ nav {
     margin-bottom: 0;
     color: #4a5565;
   }
+
+
+  .contact-with  {
+
+    border-radius: 16px;
+    padding: 32px;
+    background: linear-gradient(to bottom right, oklch(54.1% .281 293.009), oklch(55.8% .288 302.321));
+  }
+
+   
+  .contact-with  p{
+
+    color:   #ede9fe;
+    font-size: 14px;
+  }
+
+
+  .social-icons {
+
+    gap: 12px;
+  }
+  
+  .contact-with  .icon {
+
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    height: 48px;
+    width: 48px;
+    transition: all 0.3s ease;
+  }
+
+  .contact-with  .icon:hover {  
+   
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+
+
+  }
+
+
+
+
+
+
+
+
 
 }
